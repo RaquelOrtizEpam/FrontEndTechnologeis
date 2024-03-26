@@ -1,0 +1,78 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  padding:10px;
+}
+
+.logo-menu {
+    flex: 20%;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+margin:3px;}
+
+.search {
+flex: 70%;
+  width: 50%;
+  margin: 0 20px;
+  display: flex;
+   justify-content: center;
+    align-items: center;
+
+}
+
+.search input {
+  flex: 1;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search button {
+  height: 40px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.buy {
+flex: 20%;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo-menu {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .buy {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

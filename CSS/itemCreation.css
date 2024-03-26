@@ -1,0 +1,65 @@
+.add-new-coupon-header {
+    background-color: #ccc;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.form-container {
+    padding: 20px;
+    position: relative;
+}
+
+.coupon-form {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    margin-right: 20px;
+    padding:10px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button-group {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

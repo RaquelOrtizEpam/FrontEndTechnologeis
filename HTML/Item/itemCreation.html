@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Coupon</title>
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <link rel="stylesheet" href="../../CSS/itemCreation.css">
+</head>
+<body>
+<iframe class="header"  src="../Components/header.html"></iframe>
+<div class="add-new-coupon-header">Add New Coupon</div>
+<div class="form-container">
+    <form action="#" class="coupon-form">
+        <div class="left-column">
+            <div class="input-group">
+                <label for="company">Company:</label>
+                <input type="text" id="company" name="company">
+            </div>
+            <div class="input-group">
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                    <option value="category-1">Category Name</option>
+                    <option value="category-2">Category Name</option>
+                    <option value="category-3">Category Name</option>
+                    <option value="category-4">Category Name</option>
+                    <option value="category-5">Category Name</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="valid-to">Valid to:</label>
+                <input type="date" id="valid-to" name="valid-to">
+            </div>
+            <div class="input-group">
+                <label for="price">Price:</label>
+                <input type="text" id="price" name="price">
+            </div>
+
+            <div class="input-group">
+            <label for="images">Images:</label>
+            <input type="file" id="images" name="images" accept="image/*">
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="input-group">
+                <label for="code">Coupon Code:</label>
+                <input type="text" id="code" name="code">
+            </div>
+            <div class="input-group">
+            <label for="short-description">Short Description:</label>
+            <textarea id="short-description" name="short-description" rows="4" cols="50"></textarea>
+            </div>
+            <div class="input-group">
+                <label for="long-description">Long Description:</label>
+                <textarea id="long-description" name="long-description" rows="4" cols="50"></textarea>
+            </div>
+
+        </div>
+
+    </form>
+</div>
+<div class="button-group">
+    <button type="submit">Save</button>
+    <button type="reset">Reset</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.header{
+width:100%;
+height: 10vh;
+}
+
+/* All submit buttons */
+input[type="submit"],
+button[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* All other buttons */
+button:not([type="submit"]) {
+    background-color: white;
+    color: black;
+    border: solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
